@@ -15,16 +15,16 @@ header {
 display: inline-block;
 }
 header h1 {
-font-size: 80px;
-padding:auto ;
+font-size: 70px;
 text-align: center;
+color: rgb(255, 241, 180);
 }
 header p {
 font-size: 20px;
 }
 .img1 {
-width: 400px;
-padding-left: 40px;
+width: 300px;
+padding-left: 80px;
 }
 .information {
 font-weight: 20px;
