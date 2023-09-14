@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.card-container {
+padding:15px;
+position: relative;
+max-width: 360px;
+max-height: 415x;
+margin: auto;
+background-color: black;
+color: white;
+font-family: Raleway;
+}
+
+#item3 h3 {
+color: rgb(229, 250, 161);
+font-size: 30px;
+font-weight: bold;
+bottom: 120px;
+}
+
+#item4 a{
+text-decoration: none;
+}
+button {
+    width: 100px;
+    padding: 5px;
+}
+
+.Mercuryimg{
+    width: 230px;
+    height: 230px;
+    padding-left: 45px;
+    animation: rotate-element 30s linear infinite;
+}
+
+@keyframes rotate-element {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
