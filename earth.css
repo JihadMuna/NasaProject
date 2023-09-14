@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.earth body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    overflow: hidden;
+    max-width: 500px;
+}
+.earth .background {
+    width: 100%;
+    height: 100%;
+}
+.earth header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.earth main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 23%;
+    left: 15%;
+    display: block;
+    height: 50%;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+}
+.table td,.table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+footer {
+    position: absolute;
+    top: 120%;
+}
+.table2 {
+    position: absolute;
+    text-align: center;
+    left: 2rem;
+    top: 13rem;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: black;
+        
+    }
+    header {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+    main {
+        font-family: 'Raleway', sans-serif;
+    }
+    main img {
+        width: 300px;
+        height: 300px;
+        animation: spin 50s linear infinite ;
+        
+    }
+    .table {
+        top: 100%;
+        left: 15%;
+    }
+    footer table tr {
+    background-color: rgb(37, 108, 180);
+    
+    }
+    .tr2 {
+        background-color: rgb(30, 57, 137);
+        
+    }
+
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+        
+    }
+    to {
+        transform:rotate(180deg);
+    }
+}
