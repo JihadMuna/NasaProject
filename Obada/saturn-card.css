@@ -47,3 +47,15 @@
 
 
 }
+
+.btn {
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+
+    color:rgb(25, 22, 45)
+}
