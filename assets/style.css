@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+body {
+  background-color:rgba(0, 0, 0, 0.932);
+}
 .card-container {
   max-width: 360px;
   margin: 10px auto;
